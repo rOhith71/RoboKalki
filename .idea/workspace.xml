@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f188659-b366-4c7c-ae44-dd35ffaa0fa3" name="Changes" comment="Specnnt -5646 : Initial commit config" />
+    <list default="true" id="5f188659-b366-4c7c-ae44-dd35ffaa0fa3" name="Changes" comment="Specnnt -5646 : Initial commit config">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692964836064</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Specnnt -5646 : Initial commit config">
+      <created>1692965022200</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692965022200</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Specnnt -5646 : Initial commit config">
+      <created>1692965265127</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692965265127</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
