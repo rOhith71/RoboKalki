@@ -16,6 +16,7 @@ go mod init dispatch
 go get
 go build
 echo -e "\e[31m system reload \e[0m"
+cp dispatch.service /etc/systemd/system/dispatch.service
 systemctl daemon-reload
 systemctl enable dispatch
 systemctl start dispatch
