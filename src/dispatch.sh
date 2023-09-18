@@ -4,7 +4,7 @@ echo -e "\e[31m <<<adding user roboshop >>>> \e[0m"
 useradd roboshop
 
 echo -e "\e[31m <<<creating app directory >>> \e[0m"
-rm -rf app
+rm -rf /app
 mkdir /app
 curl -L -o /tmp/dispatch.zip https://roboshop-artifacts.s3.amazonaws.com/dispatch.zip
 cd /app
