@@ -5,7 +5,7 @@ curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.rpm.
 curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | bash
 
 echo -e "\e[31m <<< Installing Rabbitmq >> \e[0m"
-dnf install rabbitmq-server -y
+sudo dnf install rabbitmq-server -y
 
 echo -e "\e[31m << Startinf RabbitMq server >> \e[0m"
 systemctl enable rabbitmq-server
