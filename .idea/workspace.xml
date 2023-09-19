@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5f188659-b366-4c7c-ae44-dd35ffaa0fa3" name="Changes" comment="Specnnt -5646 : Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/payment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/payment.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/catalogue.service" beforeDir="false" afterPath="$PROJECT_DIR$/src/catalogue.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/roboshop.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/roboshop.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695099156717</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Specnnt -5646 : Initial commit">
+      <created>1695099657163</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695099657163</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Specnnt -5646 : Initial commit">
+      <created>1695099794869</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1695099794869</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
