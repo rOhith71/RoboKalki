@@ -10,7 +10,7 @@ cd /app
 
 pip3.6 install -r requirements.txt
 echo -e "\e[31m << Copying payment file >> \e[0m"
-cp payment.service /etc/systemd/system/payment.service
+cp ./payment.service /etc/systemd/system/payment.service
 systemctl daemon-reload
 systemctl enable payment
 systemctl start payment
