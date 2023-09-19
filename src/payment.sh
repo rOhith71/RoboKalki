@@ -1,5 +1,7 @@
 echo -e "\e[31m << Payment >> \e[0m"
 yum install python36 gcc python3-devel -y
+echo -e "\e << copying paymentservice file >> \e[0m"
+cp payment.service /etc/systemd/system/payment.service
 useradd roboshop
 rm -rf /app
 mkdir /app
@@ -10,7 +12,7 @@ cd /app
 
 pip3.6 install -r requirements.txt
 echo -e "\e[31m << Copying payment file >> \e[0m"
-cp ./payment.service /etc/systemd/system/payment.service
+
 systemctl daemon-reload
 systemctl enable payment
 systemctl start payment
