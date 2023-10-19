@@ -1,6 +1,6 @@
 
 pwd
-script_path=$(dirname $0)
+Script_path=$(dirname $0)
 echo ${Script_path}
 
 
