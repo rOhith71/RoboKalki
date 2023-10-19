@@ -1,10 +1,6 @@
 Script_path=$(dirname $0)
 source ${Script_path}/common.sh
 
-echo ${app_user}
-exit
-
-
 echo -e "\e[31m << User Api Installation \e[0m"
 cp user.service /etc/systemd/system/user.service
 
