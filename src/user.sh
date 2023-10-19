@@ -1,9 +1,16 @@
+source commons.sh
+pwd
+Script_path={dirname $0}
+echo ${Script_path}
+
+Exit
+
 echo -e "\e[31m << User Api Installation \e[0m"
 cp user.service /etc/systemd/system/user.service
 
 curl -sL https://rpm.nodesource.com/setup_lts.x | bash
 yum install nodejs -y
-useradd roboshop
+useradd ${app_user}
 echo -e "\e[31m << Intalling artifacts >>> \e[0m"
 rm -rf app
 mkdir /app
@@ -20,5 +27,5 @@ systemctl start user
 
 echo -e "\e[31m <<< configuring mongo ip >>> \e[0m"
 yum install mongodb-org-shell -y
-mongo --host MONGODB-SERVER-IPADDRESS </app/schema/user.js
+mongo --host http://54.196.38.156/app/schema/user.js
 

@@ -18,4 +18,5 @@ systemctl start catalogue
 
 echo -e "\e[31m <<<install mongodb >>> \e[0m"
 yum install mongodb-org-shell -y
+mongo --host http://54.196.38.156:27017/app/schema/catalogue.js
 

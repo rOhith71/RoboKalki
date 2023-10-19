@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f188659-b366-4c7c-ae44-dd35ffaa0fa3" name="Changes" comment="Specnnt -5646 : Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/common.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RoboKalki.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RoboKalki.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/catalogue.service" beforeDir="false" afterPath="$PROJECT_DIR$/src/catalogue.service" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mongo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/mongo.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/roboshop.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/roboshop.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cart.service" beforeDir="false" afterPath="$PROJECT_DIR$/src/cart.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/catalogue.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/catalogue.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redis.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/redis.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shipping.service" beforeDir="false" afterPath="$PROJECT_DIR$/src/shipping.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shipping.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/shipping.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user.service" beforeDir="false" afterPath="$PROJECT_DIR$/src/user.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/user.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +46,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rohit/OneDrive/Desktop/JOB/Devops H1b/repos/RoboKalki&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
@@ -225,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695103889103</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Specnnt -5646 : Initial commit">
+      <created>1695104059725</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1695104059725</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
