@@ -1,10 +1,11 @@
-source commons.sh
+
 pwd
-Script_path={dirname $0}
+Script_path=${dirname $0}
 echo ${Script_path}
 
-Exit
 
+exit
+source commons.sh
 echo -e "\e[31m << User Api Installation \e[0m"
 cp user.service /etc/systemd/system/user.service
 
